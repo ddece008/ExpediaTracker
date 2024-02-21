@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ExpediaNew.exe" version="1.0.0.7" publicKeyToken="19a328e84af6b018" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Expedia.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ExpediaNew" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ExpediaNew.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ExpediaNew.exe" size="263592">
+      <assemblyIdentity name="ExpediaNew" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rF2C/X6oyJqBYSibibx0Ih5YsTjqR2z0lXLYPrK7LfE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NHunspell.dll" size="31744">
+      <assemblyIdentity name="NHunspell" version="1.2.5554.16953" publicKeyToken="1AC793EA843B4366" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>37J6e/SkLKdLea5P5h1q/Vfz9ZrL/wQ3K0aaa9ST03c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Expedia.ico" size="192130">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7hrjjf98/eAtk+cblfawCxvykBjS5vfSti1nVq7yuyI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ExpediaNew.exe.config" size="186">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rO4mjoMPTzC1RdE+BMvf0lfywGmtOsKfE96n+SRa584=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=APC\ddece008" issuerKeyHash="88480881fa39b7f6927166b0f6b2226b9d2b6761" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>norT9unnv9iymTlEFUNpQFSq9nKds+x9fGZFEy84KN0=</DigestValue></Reference></SignedInfo><SignatureValue>AyjEWw6Kj2OPLiny1yazsGmxpKviC4I+7lJn2LI7U0ZPh3DBwM8UuVmlKEBjWxWl0OqLI5G1BNu7pCYPvPd9gjYp+sEtuk/CcTaB/f65OM6DmF9eVSJcwd5F0Jw08n/eG2mjzhkdRRgLIvYRBzf2KhI8f+U2w4gA21EpT9g2xOQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>olGLkG5kTPbK9cBHrg0k+z+GabIkc3SOvJZJkHECkHW7+7Q8P6IKV1sUt9PGWbPbvnWXS7+TwmMf4LIMKR0p2pVe4QslDyLxvdQ8VJmoTASVpcSCyPPKnOio+o7FhIA2zxB4Ckjg3JCK9cdB3dXvarTkNqmKtd2J0OT7FXgdauE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="dd28382f1345667c7decb39d72f6aa5440694315443999b2d8bfe7e9f6d38a9e" Description="" Url=""><as:assemblyIdentity name="ExpediaNew.exe" version="1.0.0.7" publicKeyToken="19a328e84af6b018" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=APC\ddece008</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Kf8SEy5H0z0BlwvvG/kKDQ8Ns8UOeJi8CYS+iYdPTxU=</DigestValue></Reference></SignedInfo><SignatureValue>FEiJDt8M0pf25RU4qNJBX9xQGWEfmc+I+9TPqWjsoymcInzj+7441CrEqHUsqYMKxQY/LwMwqb4eBrbvxAVKf+oehFFXphp49fJqxKm0xGNHHwvZXkHH3sa9rmBjsLnhpo7d7OLiJQjIl3YHmdwOtNldIfBJRSLfN6AoXnxsHpE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>olGLkG5kTPbK9cBHrg0k+z+GabIkc3SOvJZJkHECkHW7+7Q8P6IKV1sUt9PGWbPbvnWXS7+TwmMf4LIMKR0p2pVe4QslDyLxvdQ8VJmoTASVpcSCyPPKnOio+o7FhIA2zxB4Ckjg3JCK9cdB3dXvarTkNqmKtd2J0OT7FXgdauE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQYP0TEHPR36VKv6eTxK+ohjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAQQBQAEMAXABkAGQAZQBjAGUAMAAwADgwHhcNMjQwMTI1MTIyNjE2WhcNMjUwMTI0MTgyNjE2WjAjMSEwHwYDVQQDHhgAQQBQAEMAXABkAGQAZQBjAGUAMAAwADgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKJRi5BuZEz2yvXAR64NJPs/hmmyJHN0jryWSZBxApB1u/u0PD+iCldbFLfTxlmz2751l0u/k8JjH+CyDCkdKdqVXuELJQ8i8b3UPFSZqEwElaXEgsjzypzoqPqOxYSANs8QeApI4NyQivXHQd3V72q05DapirXdidDk+xV4HWrhAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAG32qKvdM2fIrdF+IFejcuq03kAk+7AYojtMG2btdz0qT702PZFP+fZ8081YnQi4mMjEx6VAAIN98vZgYvlwVOSwb0eYtcxe7Xz51ND15x+PuwllxkKVHJ2kGq3LpdsAw2J9bMwz/6dUrhTjcFWIjAXI+UtEjMHWDlCIK5uEthCQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
